@@ -9,10 +9,10 @@ $('document').ready(function(){
 		$(window).resize(function(){
 			 vw = $(window).width()/2;
 			$('#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9').stop();
-			$('#b11').animate({top:240, left: vw-350},500);
-			$('#b22').animate({top:240, left: vw-250},500);
-			$('#b33').animate({top:240, left: vw-150},500);
-			// $('#b44').animate({top:240, left: vw-150},500);
+			$('#b11').animate({top:240, left: vw-450},500);
+			$('#b22').animate({top:240, left: vw-350},500);
+			$('#b33').animate({top:240, left: vw-250},500);
+			$('#b44').animate({top:240, left: vw-150},500);
 			$('#b55').animate({top:240, left: vw-50},500);
 			$('#b66').animate({top:240, left: vw+50},500);
 			$('#b77').animate({top:240, left: vw+150},500);
@@ -27,11 +27,11 @@ $('document').ready(function(){
 		   $('#b22').animate({top:160, left: '43%'},500);
 		   $('#b33').animate({top:160, left: '61%'},500);
 		   $('#b44').animate({top:240, left: '1%'},500);
-		   $('#b55').animate({top:240, left: '10%'},500);
-		   $('#b66').animate({top:240, left: '27%'},500);
-		   $('#b77').animate({top:240, left: '43%'},500);
-		   $('#b88').animate({top:240, left: '62%'},500);
-		   $('#b99').animate({top:240, left: '79%'},500);
+		   $('#b55').animate({top:240, left: '18%'},500);
+		   $('#b66').animate({top:240, left: '35%'},500);
+		   $('#b77').animate({top:240, left: '52%'},500);
+		   $('#b88').animate({top:240, left: '69%'},500);
+		   $('#b99').animate({top:240, left: '86%'},500);
 	   });
 	}
 
@@ -166,10 +166,10 @@ $('document').ready(function(){
 		$('#b7').attr('id','b77')
 		$('#b8').attr('id','b88')
 		$('#b9').attr('id','b99')
-		$('#b11').animate({top:240, left: vw-350},500);
-		$('#b22').animate({top:240, left: vw-250},500);
-		$('#b33').animate({top:240, left: vw-150},500);
-		// $('#b44').animate({top:240, left: vw-150},500);
+		$('#b11').animate({top:240, left: vw-450},500);
+		$('#b22').animate({top:240, left: vw-350},500);
+		$('#b33').animate({top:240, left: vw-250},500);
+		$('#b44').animate({top:240, left: vw-150},500);
 		$('#b55').animate({top:240, left: vw-50},500);
 		$('#b66').animate({top:240, left: vw+50},500);
 		$('#b77').animate({top:240, left: vw+150},500);
@@ -198,11 +198,11 @@ $('document').ready(function(){
 		   $('#b22').animate({top:160, left: '43%'},500);
 		   $('#b33').animate({top:160, left: '61%'},500);
 		   $('#b44').animate({top:240, left: '1%'},500);
-		   $('#b55').animate({top:240, left: '10%'},500);
-		   $('#b66').animate({top:240, left: '27%'},500);
-		   $('#b77').animate({top:240, left: '43%'},500);
-		   $('#b88').animate({top:240, left: '62%'},500);
-		   $('#b99').animate({top:240, left: '79%'},500);
+		   $('#b55').animate({top:240, left: '18%'},500);
+		   $('#b66').animate({top:240, left: '35%'},500);
+		   $('#b77').animate({top:240, left: '52%'},500);
+		   $('#b88').animate({top:240, left: '69%'},500);
+		   $('#b99').animate({top:240, left: '86%'},500);
 		   $('.balloons').css('opacity','0.9');
 		   $('.balloons h2').fadeIn(3000);
 		   $(this).fadeOut('slow').delay(3000).promise().done(function(){
